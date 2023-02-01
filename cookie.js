@@ -20,4 +20,8 @@ var animate = function () {
 
   renderer.render( scene, camera );
 };
+
+var audio = document.getElementById("BL");
+  audio.volume = 0.2;
+
 animate();
