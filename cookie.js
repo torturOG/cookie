@@ -21,4 +21,8 @@ var animate = function () {
   renderer.render( scene, camera );
 };
 
+window.onload = function() {
+    document.getElementById("BL").play();
+}
+
 animate();
