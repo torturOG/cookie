@@ -20,11 +20,4 @@ var animate = function () {
 
   renderer.render( scene, camera );
 };
-
-<audio id="my_audio" src="bg.mp3" loop="loop"></audio>
-
-window.onload = function() {
-    document.getElementById("BL").play();
-}
-
 animate();
